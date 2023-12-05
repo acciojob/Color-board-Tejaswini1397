@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.querySelector('.container');
 
     // Create 800 boxes
-    for (let i = 0; i < 800; i++) {
+     for (let i = 0; i < 800; i++) {
         const square = document.createElement('div');
         square.classList.add('square');
         container.appendChild(square);
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         square.addEventListener('mouseover', function () {
             square.style.backgroundColor = '#e74c3c';
             setTimeout(() => {
-                square.style.backgroundColor = '#3498db';
+                square.style.backgroundColor = 'rgb(29,29,29)';
             }, 1000);
         });
     }
